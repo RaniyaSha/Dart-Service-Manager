@@ -1,0 +1,103 @@
+body {
+    
+}
+
+.firstPage {
+    height: 750px;
+    background-image: linear-gradient(-53deg, #00b7d3 0%, #1ce8b5 100%), url(images/firstPageBackground.png);
+}
+
+.firstPageHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Raleway";
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.logo span {
+    font-weight: bold;
+}
+.firstPageNavBar a {
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 25px;
+    color: #ffffff;
+}
+
+.firstPageNavBar a.active {
+    color: #061e37;
+}
+
+.signUpButton {
+    border: 1px solid #ffffff;
+    padding: 0 25px;
+    font-weight: 400;
+    background: none;
+    color: #ffffff;
+}
+
+.firstPage h1 {
+    font-size: 55px;
+    line-height: 65px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 800;
+    text-transform: uppercase;
+    
+    width: 500px;
+    margin-left: 75px;
+}
+
+.firstPage h2 {
+    width: 591px;
+    height: 85px;
+    font-size: 18px;
+    line-height: 35px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 400;
+    margin-left: 75px;
+    margin-bottom: 0;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-family: "Raleway";
+    font-weight: 700;
+    border: none;
+    margin-top: 40px;
+}
+
+
+.darkButton {
+    margin-left: 75px;
+    background-color: #061e37;
+    color: #ffffff;
+    margin-right: 30px;
+    
+}
+
+.whiteButton {
+    background-color: #ffffff;
+    color:  #061e37;
+    
+}
+
+.firstPageBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.firstPageRight {
+    margin-right: 75px;
+}
