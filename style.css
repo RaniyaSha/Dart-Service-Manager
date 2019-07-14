@@ -100,13 +100,15 @@ button {
     background-color: #061e37;
     color: #ffffff;
     margin-right: 30px;
-    
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
 }
 
 .whiteButton {
     background-color: #ffffff;
     color:  #061e37;
-    
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
 }
 
 .firstPageBody {
@@ -126,6 +128,94 @@ button {
 }
 
 
-.firstPageRight h2 {
+
+.easyAndUseful {
+    height: 800px;
+    background: #ffffff;
+    font-family: "Raleway";
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.mainText h1 {
+    font-size: 45px;
+    color: #061e37;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mainText h2 {
+    font-size: 25px;
+    color: #b0bec5;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mainText p {
+    width: 565px;
+    height: 63px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #b0bec5;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toolDescription {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 90px;
+}
+
+.toolDescriptionLogo {
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toolDescription h2 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #061e37;
+    font-weight: 600;
+    text-align: center;
+}
+
+.toolDescription h3 {
+    width: 350px;
+    height: 52px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #78909c;
+    font-weight: 400;
+    text-align: center;
+}
+
+.easyAndUseful button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+    background-color: #1de9b6;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
 }
