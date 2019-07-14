@@ -4,7 +4,7 @@ body {
 
 .firstPage {
     height: 750px;
-    background-image: linear-gradient(-53deg, #00b7d3 0%, #1ce8b5 100%), url(images/firstPageBackground.png);
+    background-image: linear-gradient(-53deg,rgb(0, 102, 117, 0.9), rgb(13, 110, 86, 0.8)), url(images/firstPageBackground.png);
 }
 
 .firstPageHeader {
@@ -21,8 +21,24 @@ body {
     margin-right: 75px;
 }
 
+.logo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    margin-right: 5px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
 .logo span {
     font-weight: bold;
+    margin-left: 35px;
+    margin-top: -20px;
 }
 .firstPageNavBar a {
     font-weight: 600;
@@ -37,7 +53,8 @@ body {
 
 .signUpButton {
     border: 1px solid #ffffff;
-    padding: 0 25px;
+    height: 25px;
+    width: 80px;
     font-weight: 400;
     background: none;
     color: #ffffff;
@@ -64,7 +81,7 @@ body {
     font-family: "Raleway";
     font-weight: 400;
     margin-left: 75px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 button {
@@ -74,7 +91,7 @@ button {
     font-family: "Raleway";
     font-weight: 700;
     border: none;
-    margin-top: 40px;
+    
 }
 
 
@@ -100,4 +117,15 @@ button {
 }
 .firstPageRight {
     margin-right: 75px;
+ 
+}
+
+
+.firstPageVideoImage {
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.firstPageRight h2 {
+    
 }
