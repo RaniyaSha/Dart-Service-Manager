@@ -219,3 +219,42 @@ button {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.colorfullLine {
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+   
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.colorfullLine p {
+  
+}
+.lightBlueLine {
+    justify-items: center;
+    width: 25%;
+    background-color: #80d8ff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blueLine {
+    width: 25%;
+    background-color: #82b1ff;
+}
+
+.lightVioletLine {
+    width: 25%;
+    background-color: #b388ff;
+}
+
+.violetLine {
+    width: 25%;
+    background-color: #ea80fc;
+}
