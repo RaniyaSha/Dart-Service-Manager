@@ -91,7 +91,7 @@ button {
     font-family: "Raleway";
     font-weight: 700;
     border: none;
-    
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
 }
 
 
@@ -430,4 +430,62 @@ button {
     margin-top: 15px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.ourTeam {
+    height: 750px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourTeam h2 {
+    font-size: 45px;
+    color: #061e37;
+    font-family: "Raleway";
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ourTeam h3 {
+    width: 565px;
+    height: 37px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #b0bec5;
+    font-family: "Raleway";
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.teamPhotos {
+    margin-top: 100px;
+    align-self: center;
+}
+
+.teamPersonPhoto {
+    margin-right: 50px;
+}
+
+.teamPersonName {
+    font-size: 18px;
+    line-height: 25px;
+    color: #061e37;
+    font-family: "Raleway";
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.ourTeam p {
+    width: 662px;
+    height: 64px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #90a4ae;
+    font-family: "Raleway";
+    font-weight: 400;
+    text-align: center;
 }
