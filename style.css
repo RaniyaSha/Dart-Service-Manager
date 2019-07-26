@@ -489,3 +489,74 @@ button {
     font-weight: 400;
     text-align: center;
 }
+
+.socialNets {
+    font-size: 20px;
+    line-height: 25px;
+    color: #90a4ae;
+    font-family: "icofont";
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.fa {
+    margin-left: 30px;
+}
+
+.contactUs {
+    height: 660px;
+    background-color: #fafafa;
+}
+
+.contactUs h2 {
+    font-size: 45px;
+    color: #061e37;
+    font-family: "Raleway";
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contactUs p {
+    width: 565px;
+    height: 37px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #061e37;
+    font-family: "Raleway";
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+.contactForm {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+
+#name, #email, #phone {
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #061e37;
+}
+
+#message {
+    width: 600px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #061e37;
+}
+
+.fieldForm {
+    margin-bottom: 20px;
+    display: block;
+}
