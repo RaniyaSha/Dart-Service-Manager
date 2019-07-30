@@ -536,7 +536,15 @@ button {
 .contactForm {
     width: 600px;
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.contactFormWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -559,4 +567,95 @@ button {
 .fieldForm {
     margin-bottom: 20px;
     display: block;
+    
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 14px;
+    line-height: 30px;
+    color: #061e37;
+    font-family: "Raleway";
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.check-text {
+    font-size: 15px;
+color: #061e37;
+font-family: "Raleway";
+font-weight: 500;
+}
+
+#check {
+    border: 1px solid #061e37 
+}
+
+.contactForm button {
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+    background-color: #1de9b6;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer {
+    height: 300px;
+    background-color: #061e37;
+}
+.leftSideFooter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    padding-top: 50px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Raleway";
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.footer .logo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #ffffff
+}
+
+,footer .logo img {
+    margin-right: 5px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.footer .logo span {
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: -20px;
+}
+
+.footerSubMenu a {
+font-size: 15px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 400;
+margin-top: 50px;
+}
+
+.rightSideFooter {
+
+}
+
+/*.footer a {
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 25px;
+    color: #ffffff;
 }

@@ -154,28 +154,57 @@
     <div class="contactUs">
         <h2>Contact Us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
-        <form class="contactForm">
-            <div class="fieldForm">
-                <input id="name" class="field" name="name" required type="text" placeholder="First Name">
+        <div class="contactFormWrapper">
+            <form class="contactForm">
+                <div class="fieldForm">
+                    <input id="name" class="field" name="name" required type="text" placeholder="First Name">
+                </div>
+                <div class="fieldForm">
+                    <input id="name" class="field" name="name" required type="text" placeholder="Last Name">
+                </div>
+                <div class="fieldForm">
+                    <input id="email" class="field" name="email" required type="email" placeholder="Email">
+                </div>
+                <div class="fieldForm">
+                    <input id="phone" class="field" name="phone" required type="text" placeholder="Phone">
+                </div>
+                <div class="fieldForm">
+                    <textarea id="message" class="field" required name="message" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="fieldForm">
+                    <input id="check" name="check" type="checkbox">
+                    <span class="check-text">subscribe to the newsletter</span>
+                </div>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="leftSideFooter">
+                <div class="logo"><img src="images/logo.png">DART <span>SERVICE MANAGER</span></div>
+                <div class="footerSubMenu">
+                    <a class="footerSubMenu">Privecy Policy</a>
+                    <a class="footerSubMenu">About Us</a>
+                    <a class="footerSubMenu">Address</a>
+                </div>
+        </div>
+        <div class="rightSideFooter">
+            <div class="footerNavBar">
+                <a href="#">Home</a>
+                <a class="active" href="#">Service</a>
+                <a href="#">Extension</a>
+                <a href="#">Pricing</a>
+                <a href="#">Help</a>
             </div>
-            <div class="fieldForm">
-                <input id="name" class="field" name="name" required type="text" placeholder="Last Name">
+            <div class="socialNets">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
             </div>
-            <div class="fieldForm">
-                <input id="email" class="field" name="email" required type="email" placeholder="Email">
-            </div>
-            <div class="fieldForm">
-                <input id="phone" class="field" name="phone" required type="text" placeholder="Phone">
-            </div>
-            <div class="fieldForm">
-                <textarea id="message" class="field" required name="message" rows="5" placeholder="Message"></textarea>
-            </div>
-            <div class="fieldForm">
-				<input id="check" name="check" type="checkbox">
-				<span class="check-text">subscribe to the newsletter</span>
-            </div>
-            <button>Send</button>
-        </form>
+        </div>
     </div>
 </body>
 </html>
