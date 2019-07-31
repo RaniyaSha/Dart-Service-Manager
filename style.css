@@ -603,8 +603,6 @@ font-weight: 500;
 .footer {
     height: 300px;
     background-color: #061e37;
-}
-.leftSideFooter {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -613,20 +611,31 @@ font-weight: 500;
     line-height: 25px;
     color: #ffffff;
     font-family: "Raleway";
-    margin-left: 75px;
-    margin-right: 75px;
-    margin-bottom: 100px;
+    
+}
+
+.firstLineFooter {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.secondLineFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer .logo {
     width: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     color: #ffffff;
-    
+    margin-left: 75px;
 }
 
 ,footer .logo img {
@@ -646,14 +655,34 @@ font-weight: 500;
 .footerSubMenu a {
     font-size: 15px;
     line-height: 25px;
-    color: #ffffff;
+    color: #90a4ae;;
     font-family: "Raleway";
     font-weight: 400;
-   
+    margin-left: 75px;
 }
-
+.footerSubMenu img {
+    margin-left: 15px;
+    
+}
 .footerNavBar, .footerSocialNets {
     text-align: right;
+    margin-right: 75px;
+}
+
+.footerNavBar a {
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.footerSocialNets {
+    font-size: 20px;
+    line-height: 25px;
+    color: #90a4ae;
 }
 
 /*.footer a {
